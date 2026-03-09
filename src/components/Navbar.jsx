@@ -1,5 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom'
-import { Bell, LogOut, Briefcase, Users, LayoutDashboard, Plus, MessageCircle, FileText } from 'lucide-react'
+import { Bell, LogOut, Briefcase, Users, LayoutDashboard, Plus, MessageCircle, FileText, Zap } from 'lucide-react'
 
 export default function Navbar({ user, onLogout }) {
     const navigate = useNavigate()
