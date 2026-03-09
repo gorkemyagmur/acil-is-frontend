@@ -97,7 +97,7 @@ export default function ChatPage({ user }) {
                                             <span style={{ fontSize: '0.72rem', color: 'var(--text-muted)' }}>{conv.time}</span>
                                         </div>
                                         <div style={{
-                                            fontSize: '0.8rem', color: 'var(--text-muted)',
+                                            fontSize: '0.8rem',
                                             whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis',
                                             fontWeight: conv.unread ? 600 : 400, color: conv.unread ? 'var(--text-secondary)' : 'var(--text-muted)',
                                         }}>{conv.lastMessage}</div>
